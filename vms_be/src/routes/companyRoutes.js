@@ -9,7 +9,7 @@ const router = express.Router();
 router.get("/", async (req, res) => {
   const {
     page = 1,
-    limit = 10,
+    limit = 100,
     search = "",
     sort_by = "name",
     order = "asc",
